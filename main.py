@@ -10,7 +10,6 @@ VERYSHORTWAITTIME = 0.5
 class LinkedinBot(Resources):
     def __init__(self,BASEURL):
         super().__init__(BASEURL)
-        self.openUrl('login')
         self.username= input("Enter Username/Email:")
         self.password= input("Enter Password:")        
         self.no_of_connect= input("Enter no_of_connect:")        
@@ -44,7 +43,7 @@ class LinkedinBot(Resources):
         self.login('username', self.username)
         self.login('password', self.password)
         self.press_button('submit', 'Sign in')
-        if self.check_url(self.BASEURL+'login', True) or self.check_url(self.BASEURL+'checkpoint/lg/login-submit', True):
+        if self.check_url(self.BASEURL+'login', True):
             print("IVALID USERNAME AND PASSWORD")
             self.username= input('Enter Correct Username:')
             self.password= input('Enter Correct Password:')
