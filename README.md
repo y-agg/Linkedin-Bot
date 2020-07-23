@@ -1,6 +1,6 @@
 # Linkedin-Bot
 
-Increase your likelihood to grow your connections and potentially to get interview opportunities on LinkedIn by increasing visibility of your profile by sending the connect request. #LinkedIn #LinkedInBot #Connect #Time #Pyhton #selenium #automation
+Increase your likelihood to grow your connections and potentially to get interview opportunities on LinkedIn by increasing visibility of your profile by sending the connect request.
 
 ## About
 
