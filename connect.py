@@ -11,7 +11,7 @@ class LinkedinBot(CommonElements):
     def press_button(self,typeText,aria_label):
         text= "//button[@type='{}' and @aria-label='{}']".format(typeText,aria_label)
         if self.is_element_exist(text,'xpath'): 
-            self.clearField(text)
+            self.clearField(text,'xpath')
             self.get_element_data(text,'xpath').click()
         else:
             self.time_sleep(self.WAITTIME)
