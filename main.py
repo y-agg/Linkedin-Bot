@@ -1,8 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException
 from connect import LinkedinBot
-import time
-
-
 
 if __name__ == "__main__":
     try:
