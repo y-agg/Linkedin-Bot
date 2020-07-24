@@ -2,8 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
-import time
+from time import sleep
 class Resources:
+    WAITTIME = 2
+    LONGWAITTIME = 5
+    SHORTWAITTIME = 1
+    VERYSHORTWAITTIME = 0.5
     def __init__(self,TargetUrl):
         self.BASEURL= TargetUrl
         chrome_options = webdriver.ChromeOptions()
@@ -67,3 +71,9 @@ class Resources:
         data = self.driver.execute_script(scriptText)
         if data is not None:
             return data
+    
+    def driver_quit(self):
+        self.driver.quit()
+    
+    def time_sleep(self,time):
+        sleep(time)
