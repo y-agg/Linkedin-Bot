@@ -6,10 +6,7 @@ Increase your likelihood to grow your connections and potentially to get intervi
 
 LinkedIn is the world's largest professional network on the internet. You can use LinkedIn to find the right job or internship, connect and strengthen professional. A social network that focuses on professional networking and career development. You can use LinkedIn to display your resume, search for jobs, and enhance your professional reputation by posting updates and interacting with other people.  The first step in LinkedIn is to make connections and which will help in increasing the visibility of users across the platform. 
 
-<p align="center">
-  <img src="./screenshots/code.png"" alt="LinkedInBot Result" height="400">
-</p>
-
+[Code](./screenshots/code.png)
 ## Requirements
 
 LinkedInBot was developed under [Pyhton 2.7](https://www.python.org/downloads/).
