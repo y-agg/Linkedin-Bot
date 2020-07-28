@@ -1,4 +1,4 @@
-# Linkedin-Bot
+# [Linkedin-Bot](https://github.com/y-agg/Linkedin-Bot)
 
 Increase your likelihood to grow your connections and potentially to get interview opportunities on LinkedIn by increasing visibility of your profile by sending the connect request.
 
